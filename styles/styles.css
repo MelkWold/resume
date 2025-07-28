@@ -102,7 +102,7 @@ hr {
     list-style-type:none;
 }
 
-.leftColumn li ::before  {
+.leftColumn h4::before {
     content:"";
     display: inline-block;
     width: 50px;
@@ -113,6 +113,7 @@ hr {
     vertical-align: middle;
 }
 
+/* Progress Bar Items */
 .progress-container {
     width: 400px;
     height:30px;
