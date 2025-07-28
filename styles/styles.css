@@ -1,0 +1,163 @@
+body, html {
+    margin:10;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 30px;
+    background-color:rgba(0, 0, 0, 0.664);
+    color: white;
+}
+
+#photo {
+    width:150px;
+    height:150px;
+    border: 0.5px solid black;
+    border-radius:15%;
+    margin-top: 30px;
+}
+
+#jobtitle {
+    color: rgb(11, 111, 210);
+}
+
+.basicInfo li span {
+    font-weight:bolder
+}
+.section1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin:0 auto;
+    gap: 1rem;
+}
+
+/* section1 items */
+.name{
+    flex-grow:2;
+}
+.basicInfo {
+    list-style: none;
+}
+.description{
+    flex-grow: 2;
+    margin-bottom: 20px;
+
+}
+
+/* horizontal rule */
+hr {
+    border-color: rgba(169, 169, 169, 0.183);
+    margin-bottom:100px;
+    margin-top:100px;
+}
+
+/* section2 items */
+.section2{
+    display: flex;
+    gap: 60px;
+    margin:10px;
+    padding-left:10px
+}
+
+.leftColumn {
+    display:flex;
+    flex-direction:column;
+    margin: 10px;
+}
+
+.leftColumn h2 {
+    background-color: gray;
+}
+
+.aside {
+    margin-left: auto;
+    width: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.employment::before {
+    content:"";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("/images/square-caret-down-solid-full.svg") no-repeat center center;
+    background-size: contain;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.education::before {
+    content:"";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("/images/square-caret-down-solid-full.svg") no-repeat center center;
+    background-size: contain;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.leftColumn li {
+    list-style-type:none;
+}
+
+.leftColumn li ::before  {
+    content:"";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("/images/square-caret-right-solid-full.svg") no-repeat center center;
+    background-size: contain;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.progress-container {
+    width: 400px;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgba(250, 248, 248, 0.646);
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height:100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.red-bar {
+    background-color: red;
+}
+
+.blue-bar {
+    background-color: rgb(64, 0, 255);
+}
+
+.green-bar {
+    background-color: rgb(2, 46, 26);
+}
+
+.purple-bar {
+    background-color: rgb(122, 5, 73);
+}
+
+
+.cyan-bar {
+    background-color: rgb(2, 55, 71);
+}
+
+.black-bar {
+    background-color: rgb(15, 14, 14);
+}
+
+.brown-bar {
+    background-color: #3f0303;
+}
+
+#language {
+    list-style: none;
+    margin-left: auto;
+}
